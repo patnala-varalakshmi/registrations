@@ -1,24 +1,25 @@
-# README
+# Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+git clone https://github.com/patnala-varalakshmi/registrations.git 
 
-Things you may want to cover:
+## install gems in working directory
+cd registrations
+bundle install
 
-* Ruby version
+## create db
+rails db:create
+rails db:migrate
 
-* System dependencies
+## tables -
 
-* Configuration
+users(id, first_name, last_name, email, password)
 
-* Database creation
 
-* Database initialization
+## User API information
 
-* How to run the test suite
+- index
+- create
+- delete
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
